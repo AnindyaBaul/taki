@@ -955,6 +955,10 @@ footer {
 .ic-mobile-cont{
     display: block;
 }
+.tdot-bg{
+    padding: 20px;
+    border-radius:0 0 25px 25px;
+}
 
 
 

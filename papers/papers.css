@@ -326,3 +326,142 @@ color: white;
         top: 30px;
     
     }
+
+
+    /* small devices */
+
+
+    @media only screen and (max-width: 688px) {
+       
+nav{
+    height: 56px;
+}
+
+
+header{
+    flex-direction: column;
+}
+.hc-1{
+    width: 100%;
+}
+
+.paper-text h1{
+    font-size: 50px;
+    color: #373342;
+    font-family: 'Abril Fatface', cursive;
+}
+.paper-text small{
+    font-size: 15px;
+}
+.paper-text p{
+font-size: 10px;
+}
+.taki-hasan img{
+    position:relative;
+bottom: 15px;
+left: 5px;
+height: 40px;
+width: 40px;
+    
+    }
+.taki-hasan{
+    height: 40px;
+    margin-left:0px;
+ font-size: 15px!important;
+}
+.taki-hasan span{
+ font-size: 25px!important;
+ margin-left: 70px;
+}
+.dotted-bg{
+    display: none;
+}
+.header2{
+    flex-direction: column;
+}
+
+.paper-text2{
+    padding-top: 80px;
+    height: 100px;
+}
+.paper-text2 h1{
+    font-size: 70px;
+    color: #373342;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center; 
+    
+}
+.hc-2 {
+ width: 100%;
+    
+   }
+.hc-2 p{
+ width: 100%;
+ height: 100%;
+ font-size: 20px;
+ margin-bottom: 90px;
+    
+   }
+
+.down{
+    width: 100%;
+}
+.dotted-bg2{
+top: -80px;
+}
+.bg-item-1{
+    height:356px;
+}
+.up-box p{
+    font-size:20px;
+    text-align:center;
+}
+.up-box h4{
+    display: block!important;
+margin-inline:auto;
+width: fit-content;
+}
+#v-btn{
+    font-size:15px;
+    height: 70px;
+}
+#v-btn i{
+    font-size:15px;
+    
+}
+.db-pdf{
+    font-size:15px;
+    height: 70px !important;
+margin: auto;  
+}
+.db-pdf i{
+    font-size: 15px;
+}
+.up-box small{
+  margin: auto;
+  display: block!important;
+  text-align: center;
+}
+.down::-webkit-scrollbar{
+    width: 5px;
+}
+.tdot-bg{
+    background-color: #0098AA;
+   padding: 20px;
+   border-radius:0 0 25px 25px;
+    
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+      }
