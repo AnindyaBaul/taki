@@ -43,7 +43,9 @@ function phone() {
 
   setTimeout(()=>{
     slideJs.style.width="100%";
-    slideJs.innerText="+82 10-8574-4563";
+    slideJs.innerHTML=`
+                    <p>+82 10-8574-4563</p>
+    `;
   },1000);
 }
 function linkedin() {
@@ -92,7 +94,7 @@ function map() {
   setTimeout(() => {
     slideJs.style.width = "100%";
   slideJs.innerHTML = `
-  <div class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="202" id="gmap_canvas" src="https://maps.google.com/maps?q=Room%20503,%20ITBT,%20Hanyang%20University,%20Seoul,%20Republic%20of%20Korea.&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:202px;width:1080px;}</style><a href="https://www.embedgooglemap.net">free map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:202px;width:1080px;}</style></div></div>
+  <div id="gmap" class="mapouter"><div class="gmap_canvas"><iframe width="1080" height="202" id="gmap_canvas" src="https://maps.google.com/maps?q=Room%20503,%20ITBT,%20Hanyang%20University,%20Seoul,%20Republic%20of%20Korea.&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net"></a><br><style>.mapouter{position:relative;text-align:right;height:202px;width:1080px;}</style><a href="https://www.embedgooglemap.net">free map for website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:202px;width:1080px;}</style></div></div>
   `;
   }, 1000);
 }
