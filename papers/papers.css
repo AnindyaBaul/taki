@@ -451,6 +451,13 @@ margin: auto;
    border-radius:0 0 25px 25px;
     
 }
+.custom-modal{
+    width: 100%!important;
+ 
+}
+iframe{
+    width: 100%;
+}
 
 
 
